@@ -142,7 +142,7 @@ run () {
 init() {
     printf "${GREEN}Running Command: ${COMMAND}${NC}\n"
     printf "Results will be stored in ${RESULTS_PATH}\n"
-    printf "Testing ${NUMBER_OF_RUNS} times the difference between before: '${INIT_BEFORE}' and ${INIT_AFTER}\n"
+    printf "Testing ${NUMBER_OF_RUNS} times the difference between before: '${INIT_BEFORE}' and '${INIT_AFTER}' \n"
 
     if [[ "${INIT_BEFORE}" == '' ]]
     then
